@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header, header>div, .detaill, .titel, #menu, .food, .foodShop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 10px;
+    width: 100%;
+    height: 10%;
+    background-color: #eeeeee;
+    position: fixed;
+}
+
+header>div{
+ width: calc(100%/3);
+ height: 100%;
+ justify-content: center;
+}
+
+.logo{
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+.logo img{
+    width: 40px;
+    padding: 5px;
+}
+
+.logo h2{
+    color: #e75757;
+}
+
+.lien a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: text-decoration 1s , text-decoration-color 0s, scale 1s;
+}
+
+.lien a:hover{
+    text-decoration: underline ;
+    text-decoration-color: #e75757;
+    scale: 1.1;
+}
+
+.icons{
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.icons div{
+    padding: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 30px;
+}
+
+#section{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/salad-2068220_1280.jpg);
+    background-size: 100% 100vh;
+}
+
+#section .detaill{
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.detaill h1{
+    font-size: 50px;
+    color: #eee;
+}
+
+.detaill h4{
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+.detaill button, .food button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e75757;
+    color: #eee;
+    cursor: pointer;
+    transition: scale 0.5s;
+}
+
+.detaill button:hover, .food button:hover{
+    scale: 1.1;
+}
+#menu{
+    width: 100%;
+    flex-direction: column;
+}
+
+.titel{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    font-size: 20px;
+    color: #e75757;
+}
+
+.allFood{
+    width: 80%;
+}
+
+.food{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    background-color: #e7575747;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.food .img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.food img{
+    width: 50%;
+}
+
+.food h1{
+    margin-bottom: 10px;
+}
+
+.food h3{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart span {
+    position: absolute;
+    background-color: #e75757;
+    padding: 3px 6px;
+    left: 40px;
+    top: 35px;
+    border-radius: 50%;
+    color: #eee;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -300px;
+    top: 55px;
+    background-color: #f9f9f9;
+    width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.toggle{
+  display: block;
+}
+
+
+.foodShop{
+    justify-content: space-between;
+}
+
+.imgShop{
+    width: 60px;
+}
+
+#delete{
+    width: 20px;
+}
+  

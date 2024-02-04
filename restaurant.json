@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Payla",
+        "image": "image/1.PNG",
+        "price": 120
+    },
+    {
+        "id": 2,
+        "name": "chicken",
+        "image": "image/2.PNG",
+        "price": 120
+    },
+    {
+        "id": 3,
+        "name": "Salade 1",
+        "image": "image/3.PNG",
+        "price": 220
+    },
+    {
+        "id": 4,
+        "name": "Soupe",
+        "image": "image/4.PNG",
+        "price": 123
+    },
+    {
+        "id": 5,
+        "name": "Salade 2",
+        "image": "image/5.PNG",
+        "price": 320
+    },
+    {
+        "id": 6,
+        "name": "Pizza",
+        "image": "image/6.PNG",
+        "price": 120
+    }
+]
